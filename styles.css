@@ -167,3 +167,56 @@ blockquote{
     font-style: italic;
     color: #1f2937;
 }
+
+/*********************************************************/
+/**********************CTA SECTION***********************/
+/*******************************************************/
+
+.cta-container{
+    display: flex;
+    /* border: 5px solid green; */
+    gap: 10px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+  
+.cta-primary{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.cta-btn{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding:10px;
+    width: 100px;
+    border: 3px solid #e5e7eb;
+}
+.cta-btn a{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    }
+
+.cta-btn:hover{
+    background-color: #316dcc;
+    cursor:grabbing;
+}
+
+/*********************************************************/
+/*********************FOOTER SECTION*********************/
+/*******************************************************/
+#footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 50px 10% 50px;
+    text-align: center;
+}
