@@ -7,3 +7,46 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'roboto', sans-serif;
 }
+
+/*********************************************************/
+/*********************HEADER SECTION*********************/
+/*******************************************************/
+#header-section{
+    background-color: #1f2937;
+    padding: 10px 10% 100px;
+}
+
+/**********************************/
+/***********NAVIGATION************/
+/********************************/
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin-bottom: 100px;
+    /* border: 5px solid green; */
+}
+
+.nav-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-links{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-link-items{
+    /* flex-grow: 0; 
+    flex-shrink: 1; */
+    
+    text-decoration: none;
+    color: white;
+}
